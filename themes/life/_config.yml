@@ -6,21 +6,21 @@ language: zh
 menu:
   首页: /
   关于: /about/
-  链接: /links/
+  #链接: /links/
 
 # 网站右边栏头像(图片路径或链接)
-logo: http://dl.weic96.cn/logo.png
+logo: https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=382554165,291120225&fm=26&gp=0.jpg
 
 # 社交按钮(博客右侧，其中Facebook和Twitter不填则不显示)
 github:
 weibo:
-twitter:
 facebook:
+twitter:
 email:
 rss:
 
 # favicon路径(图片路径或链接)
-favicon: 
+favicon: /images/logo.ico
 
 # 博客侧边栏配色(light/default)
 sidebar: default
@@ -32,19 +32,19 @@ index_post:
 
 #LeanCloud配置
 leancloud:
-  app_id: 
-  app_key: 
+  app_id:
+  app_key:
 
 #LeanStatistics文章阅读统计功能，采用上方LeanCloud配置（可选值：true/false）
-LeanStatistics_enable: false
+LeanStatistics_enable: true
 
 # 是否开启评论模块（可选值：true/false）
-comment: true
+comment: false
 
 # Disqus配置，填是否开启和，你的Disqus站点名
 disqus:
   enable: false
-  name: 
+  name:
 
 # Valine配置，填写是否开启，配置采用上面Leancloud配置（可选值：true/false）
 valine_enable: false
@@ -52,10 +52,12 @@ valine_enable: false
 # 文章页是否显示摘要内容(可选值true/false，如果填true文章页则会显示摘要和正文，否则只显示正文)（可选值：true/false）
 post_excerpt: false
 
+local_search:
+  enable: true
+
 # 文章页打赏方式图片(图片路径或链接)
-alipay: http://dl.weic96.cn/logo.png
+alipay: /images/zhifubao.jpg
 wechat: http://dl.weic96.cn/logo.png
-qq: http://dl.weic96.cn/logo.png
 
 
 # 主题版本

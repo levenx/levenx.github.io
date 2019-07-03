@@ -91,17 +91,13 @@
                     </div>
                     <div class="modal-body">
                         <div class="row post-donate-content">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <p>支付宝</p>
                                 <img class="post-donate-content-img no-lightbox" src="{{ theme.alipay }}"/>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <p>微信</p>
                                 <img class="post-donate-content-img no-lightbox" src="{{ theme.wechat }}"/>
-                            </div>
-                            <div class="col-md-4">
-                                <p>财付通</p>
-                                <img class="post-donate-content-img no-lightbox" src="{{ theme.qq }}"/>
                             </div>
                         </div>
                     </div>

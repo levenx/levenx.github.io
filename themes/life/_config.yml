@@ -9,14 +9,14 @@ menu:
   #链接: /links/
 
 # 网站右边栏头像(图片路径或链接)
-logo: https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=382554165,291120225&fm=26&gp=0.jpg
+logo: /images/avater.jpg  #https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=382554165,291120225&fm=26&gp=0.jpg
 
 # 社交按钮(博客右侧，其中Facebook和Twitter不填则不显示)
-github:
+github: https://github.com/levenx
 weibo:
 facebook:
 twitter:
-email:
+email: 1025534801@qq.com
 rss:
 
 # favicon路径(图片路径或链接)
@@ -57,7 +57,7 @@ local_search:
 
 # 文章页打赏方式图片(图片路径或链接)
 alipay: /images/zhifubao.jpg
-wechat: http://dl.weic96.cn/logo.png
+wechat: /images/weixin.jpg
 
 
 # 主题版本

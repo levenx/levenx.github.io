@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[【设计模式】策略模式]]></title>
-    <url>%2F2019%2F07%2F03%2Fdesign-pattern%2Fstrategy%2F</url>
-    <content type="text"><![CDATA[策略模式 &emsp;&emsp;定义了一系列算法，并将每一个算法封装起来，使得每个算法都可以相互替代，使算法本身和使用算法的客户端互相独立。 分离算法,选择实现 体现开闭原则，里氏替换原则 策略模式是一个扁平的结构，各个策略实现都是兄弟关系，实现了同一个接口或者继承了同一个抽象类，这样只要使用策略的客户端保持面向抽象编程，就可以动态的切换不同的策略实现以进行替换。]]></content>
-      <categories>
-        <category>设计模式</category>
-      </categories>
-      <tags>
-        <tag>设计模式</tag>
-        <tag>策略模式</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[【设计模式】命令行模式]]></title>
     <url>%2F2019%2F07%2F03%2Fdesign-pattern%2Fcommand-line%2F</url>
     <content type="text"><![CDATA[命令行模式 解决命令行的请求者和命令的实现之间的耦合关系 1.更方便对命令进行拓展2.对多个命令统一控制 将一个请求封装位一个对象，使发出请求的责任和执行请求的责任分割开。这样两者宅男通过命令对象进行沟通，这样方便将命令对象进行存储，传递，调用，增加与管理 抽象命令,具体命令角色实现者/接受者调用者/请求者]]></content>
@@ -37,6 +25,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[【设计模式】策略模式]]></title>
+    <url>%2F2019%2F07%2F03%2Fdesign-pattern%2Fstrategy%2F</url>
+    <content type="text"><![CDATA[策略模式 &emsp;&emsp;定义了一系列算法，并将每一个算法封装起来，使得每个算法都可以相互替代，使算法本身和使用算法的客户端互相独立。 分离算法,选择实现 体现开闭原则，里氏替换原则 策略模式是一个扁平的结构，各个策略实现都是兄弟关系，实现了同一个接口或者继承了同一个抽象类，这样只要使用策略的客户端保持面向抽象编程，就可以动态的切换不同的策略实现以进行替换。]]></content>
+      <categories>
+        <category>设计模式</category>
+      </categories>
+      <tags>
+        <tag>设计模式</tag>
+        <tag>策略模式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[springCloud学习笔记]]></title>
     <url>%2F2019%2F07%2F03%2Fjava%2FspringCloud%2Findex%2F</url>
     <content type="text"><![CDATA[springCloud 服务注册与发现（Eureka） 服务消费者（ribbon + feign) 断路器（hystrix) 路由网关（zuul / gateway) 分布式配置中心 (config) 消息总线 (bus) 服务链路追踪 (sleuth)]]></content>
@@ -45,6 +45,17 @@
       </categories>
       <tags>
         <tag>springCloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[经典排序算法]]></title>
+    <url>%2F2019%2F07%2F03%2Falgorithm%2Fsort%2F</url>
+    <content type="text"><![CDATA[springCloud 服务注册与发现（Eureka） 服务消费者（ribbon + feign) 断路器（hystrix) 路由网关（zuul / gateway) 分布式配置中心 (config) 消息总线 (bus) 服务链路追踪 (sleuth)]]></content>
+      <categories>
+        <category>常用算法</category>
+      </categories>
+      <tags>
+        <tag>排序算法</tag>
       </tags>
   </entry>
   <entry>

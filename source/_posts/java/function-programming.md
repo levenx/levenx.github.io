@@ -9,18 +9,3 @@ tags:
 ---
 
 ### springCloud
-
-* 服务注册与发现（Eureka）
-***
-* 服务消费者（ribbon + feign)
-***
-* 断路器（hystrix)
-***
-* 路由网关（zuul / gateway)
-***
-* 分布式配置中心 (config)
-***
-* 消息总线 (bus)
-***
-* 服务链路追踪 (sleuth)
-***

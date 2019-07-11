@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[【设计模式】装饰者模式]]></title>
-    <url>%2F2019%2F07%2F04%2Fdesign-pattern%2Fdecorator%2F</url>
-    <content type="text"><![CDATA[装饰者模式]]></content>
+    <title><![CDATA[【CSS】滚动条全局样式]]></title>
+    <url>%2F2019%2F07%2F11%2FjavaScript%2Fcommon%2Fglobal-scroll%2F</url>
+    <content type="text"><![CDATA[【CSS】滚动条全局样式 ::-webkit-scrollbar{ width: 5px;/* 纵向滚动条*/ height: 5px;/* 横向滚动条 */ background-color: #fff; } /*定义滚动条轨道 内阴影*/ ::-webkit-scrollbar-track{ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); background-color: #fff; } /*定义滑块 内阴影*/ ::-webkit-scrollbar-thumb{ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); background-color: #D5D5D5; } -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); box-shadow的四个参数x-offset x 轴偏移 0y-offset y轴偏移 0blur 模糊值 5pxcolor of shadow 阴影颜色]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>Web滚动条</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[【react】全局路由统一拦截处理]]></title>
+    <url>%2F2019%2F07%2F08%2FjavaScript%2Freact%2Fglobal_router-filter%2F</url>
+    <content type="text"><![CDATA[代理模式 router.js import Home from '../pages/home' import Article from '../pages/article' import User from '../pages/user' import Role from '../pages/role' const routers = [ { title: '首页', path: '/', icon: 'icon-iconset0123', component: Home }, { title: '笔记', path: '/article', icon: 'icon-iconset0123', component: Article }, { title: '权限管理', path: '/auth', icon: 'icon-lishihistory2', children: [ { title: '用户', path: '/auth/user', icon: 'icon-icon-', component: User }, { title: '角色', path: '/auth/role', icon: 'icon-navicon-jsgl', component: Role } ] } ]; export default routers; router.js class LvxRouter extends React.Component { render(){ return ( { Routers.map((item, index)=>{ return (true ? : )}/> }) } {/* */} }/> ); } } export default LvxRouter;]]></content>
       <categories>
         <category>设计模式</category>
       </categories>
+      <tags>
+        <tag>设计模式</tag>
+        <tag>代理模式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[【设计模式】装饰者模式]]></title>
+    <url>%2F2019%2F07%2F04%2Fdesign-pattern%2Fdecorator%2F</url>
+    <content type="text"><![CDATA[装饰者模式装饰者是为已有功能动态地添加更多功能的一种方式。]]></content>
       <tags>
         <tag>设计模式</tag>
         <tag>装饰者模式</tag>
@@ -68,6 +88,17 @@
       </categories>
       <tags>
         <tag>springCloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Java函数式编程]]></title>
+    <url>%2F2019%2F07%2F03%2Fjava%2Ffunction-programming%2F</url>
+    <content type="text"><![CDATA[springCloud]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>函数式编程</tag>
       </tags>
   </entry>
 </search>
